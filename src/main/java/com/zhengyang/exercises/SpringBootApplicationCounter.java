@@ -1,4 +1,4 @@
-package com.zhengyang;
+package com.zhengyang.exercises;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

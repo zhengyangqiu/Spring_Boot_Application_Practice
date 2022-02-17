@@ -1,4 +1,4 @@
-package com.zhengyang;
+package com.zhengyang.exercises;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
 @SpringBootApplication
 @RestController
+// add @RestController to you expose methods as REST services to clients
 public class SpringBootApplicationPeople {
     static List<Person> person = new ArrayList<Person>();
 
@@ -110,8 +110,8 @@ public class SpringBootApplicationPeople {
     }
 
     // All your code should be inside this one class
-    // add @RestController to you expose methods as REST services to clients
-    // create a static List of type person with few people inside
+
+   
     // create a class called Person with following properties: id, name, age
     // implement getPersonById
     /*
