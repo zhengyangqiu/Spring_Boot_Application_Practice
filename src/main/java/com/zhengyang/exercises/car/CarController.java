@@ -1,4 +1,4 @@
-package com.zhengyang.car;
+package com.zhengyang.exercises.car;
 
 
 import org.springframework.web.bind.annotation.PostMapping;

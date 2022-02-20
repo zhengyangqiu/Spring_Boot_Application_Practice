@@ -1,4 +1,4 @@
-package com.zhengyang.car;
+package com.zhengyang.exercises.car;
 
 import java.util.Objects;
 

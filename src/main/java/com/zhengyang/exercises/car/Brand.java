@@ -1,4 +1,4 @@
-package com.zhengyang.car;
+package com.zhengyang.exercises.car;
 
 public enum Brand {
     MIMI,
